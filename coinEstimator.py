@@ -19,10 +19,10 @@ dimes = float(input("Dimes: "))
 quarters = float(input("Quarters: "))
 
 #amount of coins by the information user inputs
-penny_amount = pennies / pennyWeight
-nickel_amount = nickels / nickelWeight
-dime_amount = dimes / dimeWeight
-quarter_amount = quarters / quarterWeight
+penny_amount = pennies * pennyWeight
+nickel_amount = nickels * nickelWeight
+dime_amount = dimes * dimeWeight
+quarter_amount = quarters * quarterWeight
 
 #Print results
 print(penny_amount)
